@@ -8,6 +8,8 @@ header{
 	font-family: "Georgia","Times","Times New Roman", serif;
 }
 
+
+
 .teal-background{
 	background-color: #4aaaa5;
 	color: white;
@@ -26,6 +28,9 @@ header{
 	border-bottom: 1px;
 	border-style: solid;
 	height: 75px;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
 }
 
 .footer{
@@ -75,7 +80,7 @@ header{
 .side-bar{
 	width: 270px;
 	height: 150px;
-	margin-top: 50px;
+	margin-top: 125px;
 	color: #777777;
 	float: left;
 }
@@ -97,10 +102,11 @@ header{
 
 .main-section{
 	width: 650px;
-	height: 590px;
-	margin: 50px 20px 50px 0px;
+	height: 210vh;
+	margin: 125px 20px 50px 0px;
 	color: #777777;
 	float: left;
+	margin-bottom: 200px;
 }
 
 .image{
